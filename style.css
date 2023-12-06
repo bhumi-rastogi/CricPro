@@ -1,0 +1,63 @@
+/* Type your code here */
+body{
+  background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 414px 99px;
+}
+.sign{
+  transform:translate(49em);
+  text-align: right;
+  justify-content: right;
+  margin-right: 95px;
+}
+.image{
+  display: none;
+}
+
+.tag{
+  color: rgb(84, 84, 214);
+  cursor:pointer;
+  font-style: italic;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.score{
+  background-color: rgb(240, 240, 240);
+  border-collapse:collapse ;
+  height: 190px;
+  min-width: 700px;
+}
+
+h3{
+  color: rgb(119, 111, 111);
+}
+
+.footer{
+  padding-top: 47px;
+}
+
+.navbar{
+  padding: .6rem;
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 700px;
+  background-color: brown;
+}
+
+.score tbody tr{
+  border-bottom: 2px solid rgb(212, 205, 205);
+}
+
+.score th, .score td{
+  padding: 9px 11px;
+}
+
+.score thead tr{
+  color: black;
+  text-align: left;
+  border-bottom: 1px solid wheat;
+
+}
